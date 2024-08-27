@@ -33,21 +33,16 @@ def main():
 
         for item in updateable:
             item.update(dt)
-        # player.update(dt)
         for asteroid in asteroids:
             if player.has_collided(asteroid):
                 print("Game Over!")
                 return
         for item in drawable:
             item.draw(screen)
-        # player.draw(screen)
 
         pygame.display.flip()
         dt = clock.tick(60) / 1000
 
-    # print("Starting asteroids!")
-    # print(f"Screen width: {SCREEN_WIDTH}")
-    # print(f"Screen height: {SCREEN_HEIGHT}")
 
 if __name__ == "__main__":
     main()
