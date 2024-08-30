@@ -21,3 +21,7 @@ To play the game on your local machine run the main.py file using the latest ver
 ### shoot
 
 - Shoot: Spacebar
+
+---
+
+![Demo image of asteroids game](/assets/images/asteroids_demo_image.jpg)
