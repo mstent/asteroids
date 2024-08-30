@@ -4,7 +4,7 @@ A simple version of the classic asteroids game utilising pygame.
 
 To play the game on your local machine activate the virtual environemnt from /venv/bin/activate. e.g:
 
-`$ source venv/bin activate`
+`$ source venv/bin/activate`
 
 Then run the main.py file using python3. e.g:
 
